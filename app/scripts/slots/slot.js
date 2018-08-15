@@ -1,9 +1,6 @@
 import * as PIXI from 'pixi.js';
 import gameConfig from '../game-config';
-
-function randomNumberFromRange(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-}
+import randomNumberFromRange from '../randon-number';
 
 export default class Slot extends PIXI.Sprite {
   constructor(slotCount, numberOfSlots, radius) {
