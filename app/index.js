@@ -1,3 +1,4 @@
 import './main.css';
+import applicationLoader from './scripts/loaders/application-loader';
 
-alert('hello world!');
+applicationLoader();

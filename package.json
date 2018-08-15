@@ -47,5 +47,8 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "pixi.js": "^4.8.1"
   }
 }
