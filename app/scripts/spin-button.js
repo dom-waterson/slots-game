@@ -1,6 +1,5 @@
 import * as PIXI from 'pixi.js';
 import Circle from './circle';
-import Sprite from './sprite';
 import gameConfig from './game-config';
 import { getReels } from './reel/reels';
 
@@ -19,12 +18,16 @@ export default class SpinButton extends PIXI.Container {
   }
 
   createBackground() {
-    const buttonBackground = new Sprite(
+    const buttonBackground = new PIXI.Sprite(
       new Circle(
         gameConfig.centerButton.radius,
         gameConfig.centerButton.colour,
       ).generateCanvasTexture(),
     );
+
+    buttonBackground.anchor.set(0.5, 0.5);
+
+    buttonBackground.position.set(gameConfig.centerPoints.x, gameConfig.centerPoints.y);
 
     this.addChild(buttonBackground);
   }

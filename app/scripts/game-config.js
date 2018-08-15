@@ -62,4 +62,11 @@ export default {
       align: 'center',
     },
   },
+  winGrid: {
+    width: 200,
+    height: 120,
+    colour: 0x585659,
+    lineSize: 3,
+    rows: 3,
+  },
 };
