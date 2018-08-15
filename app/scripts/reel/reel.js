@@ -21,4 +21,14 @@ export default class Reel extends PIXI.Container {
     this.pivot.set(gameConfig.centerPoints.x, gameConfig.centerPoints.y);
     this.position.set(gameConfig.centerPoints.x, gameConfig.centerPoints.y);
   }
+
+  /* eslint-disable class-methods-use-this */
+  start() {
+    console.log('start spinning');
+  }
+
+  stop() {
+    console.log('stop spinning');
+  }
+  /* */
 }

@@ -8,6 +8,10 @@ export default {
     y: 400,
   },
   reelWidth: 40,
+  centerButton: {
+    radius: 100,
+    colour: 0xffffff,
+  },
   reels: [
     {
       radius: 300,
@@ -49,5 +53,13 @@ export default {
   symbolsSize: {
     width: 25,
     height: 25,
+  },
+  spinButton: {
+    style: {
+      fontFamily: 'Arial',
+      fontSize: 34,
+      fill: 0xff1010,
+      align: 'center',
+    },
   },
 };
