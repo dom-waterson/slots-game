@@ -8,7 +8,7 @@ export default () => new Promise((resolve) => {
   const application = new PIXI.Application({
     width: gameConfig.canvas.width,
     height: gameConfig.canvas.height,
-    transparent: false,
+    transparent: true,
   });
 
   setGameContext(application);
