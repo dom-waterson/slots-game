@@ -45,4 +45,5 @@ export default {
       speedIncreaseTime: 200,
     },
   ],
+  pathToSymbolAssets: './assets/symbols/symbols.json',
 };
