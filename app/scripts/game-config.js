@@ -46,4 +46,8 @@ export default {
     },
   ],
   pathToSymbolAssets: './assets/symbols/symbols.json',
+  symbolsSize: {
+    width: 25,
+    height: 25,
+  },
 };
