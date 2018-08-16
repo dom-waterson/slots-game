@@ -5,7 +5,7 @@ import randomNumberFromRange from '../randon-number';
 export default class Slot extends PIXI.Sprite {
   constructor(slotCount, numberOfSlots, radius) {
     const symbols = PIXI.loader.resources[gameConfig.pathToSymbolAssets].textures;
-    const texture = symbols[`symbol-${randomNumberFromRange(1, 10)}.png`];
+    const texture = symbols[`symbol-${randomNumberFromRange(1, 20)}.png`];
     super(texture);
 
     const radianPerSector = (2 * Math.PI) / numberOfSlots;
